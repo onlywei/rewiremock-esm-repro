@@ -1,0 +1,17 @@
+{
+  "name": "rewiremock-esm-repro",
+  "version": "1.0.0",
+  "description": "Reproducible example repo for an issue with rewiremock and esm",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {
+    "test": "mocha -r esm spec.js"
+  },
+  "author": "Wei Wang <wei@fastmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.0.38",
+    "mocha": "^5.2.0",
+    "rewiremock": "^3.7.2"
+  }
+}
